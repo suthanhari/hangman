@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+        }
+
+        .button1 {
+
+            display: flex;
+            justify-content: center;
+            /* margin: 50px 0 0 0; */
+        }
+
+        .button2 {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .btn {
+            margin-left: 5px;
+            background-color: #1010e0;
+            color: whitesmoke;
+            border-radius: 4px;
+            border: none;
+            padding: 15px;
+            display: inline-block;
+            font-size: 12px;
+
+        }
+
+        .btn1 {
+            margin-top: 5px;
+            margin-left: 5px;
+            background-color: #1010e0;
+            color: whitesmoke;
+            border-radius: 4px;
+            border: none;
+            padding: 15px;
+            display: inline-block;
+            font-size: 12px;
+
+        }
+
+        .btn:hover {
+            background-color: #5050d4;
+        }
+
+        .btn1:hover {
+            background-color: #5050d4;
+        }
+
+        .btn:visited {
+            background-color: white;
+            color: black
+        }
+
+        #array {
+            display: flex;
+            justify-content: center;
+            font-size: 25px;
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+
+        <img src="D:\art\hang\hangman2.png" alt="hangman">
+    </div>
+
+    <p id="array">
+
+
+    </p>
+
+    <p id="typehere">
+
+    </p>
+
+
+    <div class="button1">
+
+
+
+
+        <button onclick="a()" class="btn">A</button>
+
+
+
+
+        <button onclick="b()" class="btn">B</button>
+
+
+        <button  onclick="c()" class="btn">C</button>
+
+
+        <button onclick="d()"  class="btn">D</button>
+
+
+        <button onclick="e()" class="btn">E</button>
+
+
+        <button onclick="f()" class="btn">F</button>
+
+
+        <button onclick="g()" class="btn">G</button>
+
+
+        <button onclick="h()" class="btn">H</button>
+
+
+        <button onclick="i()" class="btn">I</button>
+
+
+        <button onclick="j()" class="btn">J</button>
+
+
+        <button onclick="k()" class="btn">K</button>
+
+
+        <button onclick="l()" class="btn">L</button>
+
+
+        <button onclick="m()" class="btn">M</button>
+
+    </div>
+    <div class="button2">
+
+
+        <button onclick="n()" class="btn1">N</button>
+
+
+        <button onclick="o()" class="btn1">O</button>
+
+
+        <button onclick="p()" class="btn1">P</button>
+
+
+        <button onclick="q()" class="btn1">Q</button>
+
+
+        <button onclick="r()" class="btn1">R</button>
+
+
+        <button onclick="s()" class="btn1">S</button>
+
+
+        <button onclick="t()" class="btn1">T</button>
+
+
+        <button onclick="u()" class="btn1">U</button>
+
+
+        <button onclick="v()" class="btn1">V</button>
+
+        <button onclick="w()" class="btn1">W</button>
+
+
+        <button onclick="x()" class="btn1">X</button>
+
+
+
+        <button onclick="y()" class="btn1">Y</button>
+
+
+        <button onclick="z()" class="btn1">Z</button>
+
+    </div>
+
+
+
+    <script>
+
+        let itemList = ["winterkill", "zeugmatography", "jordan", "palatine", "interlunation", "beforetime", "neonaticide", "lucimeter", "irrespectuose", "pipe"];
+
+        var item = itemList[Math.floor(Math.random() * itemList.length)];
+        var show = document.getElementById("array").innerText = item;
+      
+        function a(){
+            document.getElementById("typehere").innerHTML="a"
+        }
+        function b(){
+            document.getElementById("typehere").innerHTML="b"
+        }
+        function c(){
+            document.getElementById("typehere").innerHTML="c"
+        }
+        function d(){
+            document.getElementById("typehere").innerHTML="d"
+        }
+        function e(){
+            document.getElementById("typehere").innerHTML="e"
+        }
+        function f(){
+            document.getElementById("typehere").innerHTML="f"
+        }
+        function g(){
+            document.getElementById("typehere").innerHTML="g"
+        }
+        function h(){
+            document.getElementById("typehere").innerHTML="h"
+        }
+        function i(){
+            document.getElementById("typehere").innerHTML="i"
+        }
+        function j(){
+            document.getElementById("typehere").innerHTML="j"
+        }
+        function k(){
+            document.getElementById("typehere").innerHTML="k"
+        }
+        function l(){
+            document.getElementById("typehere").innerHTML="l"
+        }
+        function m(){
+            document.getElementById("typehere").innerHTML="m"
+        }
+        function n(){
+            document.getElementById("typehere").innerHTML="n"
+        }
+        function o(){
+            document.getElementById("typehere").innerHTML="o"
+        }
+        function p(){
+            document.getElementById("typehere").innerHTML="p"
+        }
+        function q(){
+            document.getElementById("typehere").innerHTML="q"
+        }
+        function r(){
+            document.getElementById("typehere").innerHTML="r"
+        }
+        function s(){
+            document.getElementById("typehere").innerHTML="s"
+        }
+        function t(){
+            document.getElementById("typehere").innerHTML="t"
+        }
+        function u(){
+            document.getElementById("typehere").innerHTML="u"
+        }
+        function v(){
+            document.getElementById("typehere").innerHTML="v"
+        }
+        function w(){
+            document.getElementById("typehere").innerHTML="w"
+        }
+        function x(){
+            document.getElementById("typehere").innerHTML="x"
+        }
+        function y(){
+            document.getElementById("typehere").innerHTML="y"
+        }
+        function z(){
+            document.getElementById("typehere").innerHTML="z"
+        }
+
+
+        // var replace = itemList.replace("show", " _ _ _ _");
+
+        
+
+        
+    
+
+
+        //   console.log(replace);
+
+
+
+        // function excecute(v1,v1,cb)
+
+        //   console.log(show);
+
+        //    console.log(item);
+        // document.getElementById("array").innerHTML=hb;
+
+        // setTimeout(function () {
+        //     console.log("Happy Birthday");
+        //     // var hb="Happy Birthday"
+
+        // },11000);
+
+        // setTimeout(function () {
+        //     console.log("01");
+        //     // var hb="01"
+        //     // document.getElementById("array").innerHTML=hb;
+        // },10000)
+        // setTimeout(function () {
+        //     console.log("02");
+        //     // var hb="02"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 9000);
+        // setTimeout(function () {
+        //     console.log("03");
+        //     // var hb="03"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 8000);
+        // setTimeout(function () {
+        //     console.log("04");
+        //     // var hb="04"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 7000);
+        // setTimeout(function () {
+        //     console.log("05");
+        //     // var hb="05"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 6000);
+        // setTimeout(function () {
+        //     console.log("06");
+        //     // var hb="06"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 5000);
+        // setTimeout(function () {
+        //     console.log("07");
+        //     // var hb="07"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 4000);
+        // setTimeout(function () {
+        //     console.log("08");
+        //     // var hb="08"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 3000);
+        // setTimeout(function () {
+        //     console.log("09");
+        //     // var hb="09"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 2000);
+        // setTimeout(function () {
+        //     console.log("10");
+        //     // var hb="10"
+        //     // document.getElementById("array").innerHTML=hb;
+        // }, 1000);
+
+
+
+
+
+    </script>
+</body>
+
+</html>
